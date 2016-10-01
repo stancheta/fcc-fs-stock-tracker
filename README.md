@@ -9,11 +9,15 @@ install Express globally with the following command:
 You can install all other dependencies with this command: `npm install`
 
 ## How to Use
-In order to run this program, you can use this command to start the server on localhost:8080:
-```
-npm start
+`npm start` will start up a webpack server for developing a front end react app.
 
-```
+`npm run build` will build the project and place the files in a `public` folder.
+
+`npm run serve` will serve whatever is in the `public` folder on `localhost:8080` with an express server.
+
+`npm run prod` will build and then serve the project.
+
+If you want to use the original datavis only boilerplate, then use the `datavis-only` branch.
 
 ## Project Description:
 FreeCodeCamp has a series of projects with increasingly complex [requirements](https://www.freecodecamp.com/challenges/chart-the-stock-market).
